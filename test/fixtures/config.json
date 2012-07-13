@@ -1,6 +1,6 @@
 /* A test config file. */
 {
-	// A test config option.
-	"foo": false,
-	"bar": true
+    // A test config option.
+    "foo": false,
+    "bar": true
 }
