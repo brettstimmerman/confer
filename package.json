@@ -1,0 +1,35 @@
+{
+	"name": "confer",
+	"description": "Locate and parse JSON files",
+	"version": "0.0.1",
+
+	"author": "Brett Stimmerman <brettstimmerman@gmail.com>",
+	"homepage": "https://github.com/brettstimmerman/confer",
+	"keywords": ["find", "locate", "parse", "JSON", "file"],
+
+	"license": "MIT",
+
+	"respository": {
+		"type": "git",
+		"url": "https://github.com/brettstimmerman/confer.git"
+	},
+
+	"engines": {
+		"node": ">= 0.6"
+	},
+
+	"dependencies": {
+		"json-compressor": "~0.0.1",
+		"parents": "~0.0.1"
+	},
+
+	"devDependencies": {
+		"mocha": "*"
+	},
+
+	"main": "index",
+
+	"scripts": {
+		"test": "mocha -R spec"
+	}
+}
