@@ -7,6 +7,8 @@ file is not found, confer then walks up the directory tree one level at a time
 until a file is found. If confer has not found a file after the walk, it will
 look for a file in `$HOME`.
 
+[![Build Status](https://secure.travis-ci.org/brettstimmerman/confer.png?branch=master)](http://travis-ci.org/brettstimmerman/confer)
+
 ## Installation
 
 ``` bash
