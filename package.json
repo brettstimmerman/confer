@@ -1,7 +1,7 @@
 {
     "name": "confer",
     "description": "Locate and parse JSON files",
-    "version": "0.0.1",
+    "version": "0.1.0",
 
     "author": "Brett Stimmerman <brettstimmerman@gmail.com>",
     "homepage": "https://github.com/brettstimmerman/confer",
