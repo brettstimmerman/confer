@@ -2,13 +2,12 @@ var fs       = require('fs'),
     path     = require('path'),
     compress = require('json-compressor'),
     parents  = require('parents'),
-    exists   = fs.existsSync || path.existsSync,
+    exists   = fs.existsSync,
     readFile = fs.readFileSync,
-    sep      = path.sep || ('win32' === process.platform ? '\\' : '/'),
     confer;
 
 module.exports = confer = function confer(file, dir) {
-    if  (file.indexOf(sep) === -1) {
+    if  (file.indexOf(path.sep) === -1) {
         file = locateFile(file, dir);
     }
     else {
