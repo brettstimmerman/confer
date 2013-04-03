@@ -11,7 +11,7 @@ look for a file in `$HOME`.
 
 ## Installation
 
-``` bash
+``` shell
 npm install confer
 ```
 
@@ -28,8 +28,8 @@ var config = require('confer')('config.json') || {};
 Locate and parse a JSON file. Returns a JSON object or `false` if a file was not
 found.
 
-* `file` {string} filename or path
-* `dir` {string} (optional) directory to begin from; default is `process.cwd()`
+* `file` {String} filename or path
+* `dir` {String} (optional) directory to begin from; default is `process.cwd()`
 
 If `file` is a path then confer will parse the given file directly, bypassing
 the locate step.
@@ -39,11 +39,11 @@ the locate step.
 Locate a file by walking up the directory tree. Returns a file path or `false`
 if a file was not found.
 
-* `file` {string} filename
-* `dir` {string} (optional) directory to begin from; default is `process.cwd()`
+* `file` {String} filename
+* `dir` {String} (optional) directory to begin from; default is `process.cwd()`
 
 ## Tests
 
-``` bash
+``` shell
 npm test
 ```
